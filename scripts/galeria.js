@@ -4,6 +4,11 @@ const janela_img = document.querySelector('#img_janela')
 const btn = document.querySelector('#btn_close')
 let endere = ""
 
+if (!janela || !janela_img || !btn) {
+    console.error('Elementos não encontrados')
+    return
+}
+
 for(let i=0 ; i < img.length ; i++){
     img[i].addEventListener('click', () => {
        endere = img[i].getAttribute("src")
