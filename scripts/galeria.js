@@ -12,5 +12,5 @@ for(let i=0 ; i < img.length ; i++){
     })
 }
 btn.addEventListener('click', () => {
-    //janela.classList.toggle('janela_ativa')
+    janela.classList.toggle('janela_ativa')
 })
