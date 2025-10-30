@@ -17,6 +17,7 @@ body {
 
 main {
     width: 100%;
+    height: calc(95vh - 50px);
     min-height: 95vh;
     display: flex;
     padding: 10px;
