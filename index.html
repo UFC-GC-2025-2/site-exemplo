@@ -1,37 +1,5 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Disciplina de GC - HOME</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="shortcut icon" href="assets/img/icon-gc.png" type="image/x-icon">
-    </head>
-    <body>
-        <header class="cabecalho">
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="gallery.html">Galeria</a></li>
-                    <li><a href="about.html">Sobre</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="conteudo-bem-vindo">
-                <div class="titulo-conteudo">
-                    <h1>Bem vindo à disciplina de Gerência de Configuração</h1>
-                    <p> Aqui você encontrará informações sobre a disciplina e uma galeria de práticas realizadas ao longo do curso.</p>
-                </div>
-            </section>
-        </main>
-        <div id="footer-container"></div>
-        <script>
-            fetch("./assets/html/footer.html")
-                .then(response => response.text())
-                .then(data => document.getElementById("footer-container").innerHTML = data);
-        </script>
-    </body>
-
 <head>
     <meta charset="UTF-8" />
     <title>Disciplina de GC - HOME</title>
@@ -49,16 +17,19 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="conteudo-bem-vindo">
             <div class="titulo-conteudo">
                 <h1>Bem vindo à disciplina de Gerência de Configuração</h1>
             </div>
+                <p> Aqui você encontrará informações sobre a disciplina e uma galeria de práticas realizadas ao longo do curso.</p>
         </section>
     </main>
 
     <footer>
-        Copyright © 2025 - Todos os direitos reservados - UFC.
+        <p>Disciplina: Gerência de Configuração (GC) © - Todos os direitos reservados.</p>
+        <p>Copyright © 2025 - Todos os direitos reservados - UFC.</p>
     </footer>
 </body>
 
