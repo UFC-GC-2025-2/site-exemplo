@@ -62,20 +62,23 @@ footer {
 }
 
 .cabecalho {
-    position: fixed !important;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-	height: 5vh;
-	background-color: #4169E1;
-	font-size: 20px;
-	padding: 7px;
+    height: 60px; 
+    background-color: #4169E1;
+    font-size: 20px;
+    padding: 10px 0;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cabecalho nav ul {
 	display: flex;
-	justify-content: space-around;
+	gap: 40px;
 }
 
 .cabecalho nav ul a {
@@ -91,6 +94,15 @@ footer {
     margin-bottom: 30px;
     margin-top: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+    padding-top: 80px; 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
