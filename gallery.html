@@ -43,10 +43,10 @@
         </main>
 
         <div id="footer-container"></div>
+        <script src="scripts/load-footer.js"></script>
         <script>
-            fetch("./assets/html/footer.html")
-                .then(response => response.text())
-                .then(data => document.getElementById("footer-container").innerHTML = data);
+            loadHTML("footer-container", "assets/html/footer.html");
         </script>
+
     </body>
 </html>
