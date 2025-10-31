@@ -143,6 +143,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .about-image figure img {
