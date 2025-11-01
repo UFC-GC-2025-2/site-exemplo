@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
-        <title>Disciplina de GC - HOME</title>
+        <title>Disciplina de GC - Sobre</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" href="assets/img/icon-gc.png" type="image/x-icon">
     </head>
@@ -16,18 +16,55 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section class="conteudo-bem-vindo">
-                <div class="titulo-conteudo">
-                    <h1>Bem vindo à aba sobre gerência de configuração</h1>
-                    <h1>Esta seção fornece informações detalhadas sobre a disciplina de Gerência de Configuração.</h1>
-                </div>
-            </section>
-        </main>
+
+       <main>
+  <section class="conteudo-bem-vindo">
+    <div class="titulo-conteudo">
+      <h1>Bem-vindo à aba sobre Gerência de Configuração</h1>
+      <h2>Esta seção fornece informações detalhadas sobre a disciplina de Gerência de Configuração.</h2>
+    </div>
+  </section>
+
+  <section class="conteudo-info">
+    <div class="container-info">
+      <h2>O que é Gerência de Configuração?</h2>
+      <p>
+        A Gerência de Configuração de Software (GCS) é responsável por identificar, controlar e
+        documentar as mudanças que ocorrem durante o desenvolvimento de um sistema. Ela garante
+        que o produto final mantenha sua integridade, consistência e rastreabilidade ao longo de
+        todo o ciclo de vida do software.
+      </p>
+
+      <h2>Principais Atividades</h2>
+      <ul>
+        <li>Identificação dos itens de configuração (artefatos do projeto);</li>
+        <li>Controle e versionamento das modificações realizadas;</li>
+        <li>Auditoria e verificação da integridade do sistema;</li>
+        <li>Gerenciamento de builds e releases.</li>
+      </ul>
+
+      <h2>Ferramentas Utilizadas</h2>
+      <p>
+        Entre as ferramentas mais usadas para GCS estão:
+        <strong>Git, GitHub, GitLab e Bitbucket</strong>, que permitem colaboração, rastreamento
+        de mudanças e integração contínua entre equipes.
+      </p>
+
+      <h2>Importância na Engenharia de Software</h2>
+      <p>
+        A aplicação correta da Gerência de Configuração evita retrabalho, perda de código e
+        inconsistências entre versões, contribuindo diretamente para a qualidade e confiabilidade
+        do software entregue.
+      </p>
+    </div>
+  </section>
+</main>
+
+
+        <div id="footer-container"></div>
+        <script src="scripts/load-footer.js"></script>
+        <script>
+            loadHTML("footer-container", "assets/html/footer.html");
+        </script>
     </body>
-    <div id="footer-container"></div>
-    <script src="scripts/load-footer.js"></script>
-    <script>
-        loadHTML("footer-container", "assets/html/footer.html");
-    </script>
 </html>
