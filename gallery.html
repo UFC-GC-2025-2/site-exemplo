@@ -7,38 +7,47 @@
         <link rel="shortcut icon" href="assets/img/icon-gc.png" type="image/x-icon">
     </head>
     <body>
-
-        <header>
-            <div class="janela">
-                <div class="janela_content">
-                    <img src="assets/img/img.jpg" id="img_janela">
-                </div>
-                <div id="btn_close"><span>&times;</span></div>
+        <div class="janela">
+            <div class="janela_content">
+                <img src="assets/img/img.jpg" id="img_janela">
             </div>
+            <div id="btn_close"><span>&times;</span></div>
+        </div>
 
-            <div class="cabecalho">
-                <nav class="nav-bar">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="gallery.html">Galeria</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <header class="cabecalho">
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
             <section>
                 <div class="titulo-conteudo">
                     <h1>Bem-vindo(a) à galeria de práticas!</h1>
                 </div>
                 <div class="conteiner">
                     <div class="img-box">
-                        <div class="box_img"><img src="assets/img/foto.jpg" alt="Primeira foto da Pratica" class="size_img"></div>
-                        <div class="box_img"><img src="assets/img/img-fabs.jpeg" alt="Segunda foto da Pratica" class="size_img"></div>
-                        <div class="box_img"><img src="assets/img/code.jpg" alt="Terceira foto da Pratica" class="size_img"></div>
-                        <div class="box_img"><img src="assets/img/image-04.jpg" alt="Qaurta foto da Pratica" class="size_img"></div>
-                        <div class="box_img"><img src="assets/img/img.jpg" alt="Quinta foto da Pratica" class="size_img"></div>
-                        <div class="box_img"><img src="assets/img/imagem-05.jpg" alt="Sexta foto da Pratica" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/foto.jpg" alt="Pequeno planeta" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/img-fabs.jpeg" alt="Ciclo DevOps" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/code.jpg" alt="Mantra de desenvolvimento" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/image-04.jpg" alt="Interface futurista" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/img.jpg" alt="Décimo Doutor" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/imagem-05.jpg" alt="Piada sobre HTML" class="size_img"></div>
+                        <div class="box_img"><img src="assets/img/meme.jpg" alt="Meme de programação" class="size_img"></div>
                     </div>
+                </div>
             </section>
-        </header>
+        </main>
+
+        <div id="footer-container"></div>
+        <script src="scripts/load-footer.js"></script>
+        <script>
+            loadHTML("footer-container", "assets/html/footer.html");
+        </script>
+
     </body>
-    <script src="scripts/galeria.js"></script>
 </html>
